@@ -1,0 +1,289 @@
+  body {
+    margin: 0;
+    background-color: #1d1d1d;
+    font-family: 'Droid Sans', sans-serif;
+    color: rgb(235, 235, 235);
+  }
+
+  .fixedWidth {
+    width:1050px;
+    margin: 0 auto;
+  }
+
+  #topBar {
+    height: 150px;
+    border-bottom: 1px solid #303030;
+  }
+
+  #logoSection {
+    height: 150px;
+    width: 300px;
+    /*consider removing padding for efficiency*/
+    padding: 10px;
+    float: left;
+  }
+
+  #logo {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 3.9em;
+    margin: 60px 0 10px 40px;
+  }
+
+  #menuSection {
+    margin-top: 100px;
+    padding-bottom: 10px;
+    height: 50px;
+    width: 750px;
+    float: left;
+    /*background-color: red;*/
+  }
+
+  #menuList {
+    list-style: none;
+    margin: 0;
+    padding: 15px 0px 0px 100px;
+    /*background-color: green;*/
+  }
+
+  .menuItem {
+    float: left;
+    margin-right: 40px;
+    font-size: 1.5em;
+    /*background-color: blue;*/
+  }
+
+  .menuItem a {
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+  }
+
+  #logoutButton {
+    margin: 0;
+    color: rgb(235, 235, 235);
+    border: 1px solid #1d1d1d;
+    border-radius: 3px;
+    background-color: #1d1d1d;
+    float: left;
+    margin-right: 50px;
+    font-size: 1.5em;
+  }  
+
+  #contentBar {
+    width: 1050px;
+    height: 600px;
+    /*background-color: white;*/
+    border-bottom: 1px solid #303030;
+    padding-top: 25px;
+  }
+
+  #sideSection {
+    width: 150px;
+    height: 550px;
+    border-right: 1px solid #303030;
+    float: left;
+  }
+
+  #dateSection {
+    width: 80%;
+    height: 45px;
+    margin: 0px 5px 0px 5px;
+    padding: 0px;
+    float: top;
+    /*background-color: red;*/
+  }
+
+  #welcomeUser {
+    width: 80%;
+    height: 30px;
+    margin: 0px 5px 0px 5px;
+    padding: 0px;
+    float: top;
+    /*background-color: green;*/
+  }
+
+  #mainSection {
+    width: 900px;
+    height: 580px;
+    float: left;
+    /*margin-left: 20px;*/
+    /*background-color: #303030;*/
+  }
+
+  #contentDiv {
+    width: 90%;
+    height: 90%;
+    background-color: #303030;
+    border-radius: 10px;
+    margin-left: 20px;
+    border: 1px solid #1af0ca;
+  }
+
+  #getImageDiv {
+    width: 160px;
+    height: 140px;
+    margin: 10px;
+    /*background-color: red;*/
+  }
+
+  #getImageDiv img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+  }
+
+  #profilestats {
+    width: 100%;
+    height: 200px;
+    float: left;
+  }
+
+  #viewProfileButton {
+    width: 200px;
+    height: 30px;
+    color: #303030;
+    background-color: #1af0ca;
+    border-radius: 5px;
+    border: 1px solid #1af0ca;
+  }
+
+  #viewProfileButton a {
+    color: #1d1d1d;
+    text-decoration: none;
+  }
+
+  #editPrompt {
+    font-size: 1.3em;
+  }
+
+  #editProfileSection {
+    width: 90%;
+    height: 86%;
+    margin: 10px 10px 10px 20px;
+    padding: 10px;
+    border: 1px solid #1af0ca;
+    border-radius: 10px;
+    font-size: 1.1em;
+    background-color: #303030;
+  }
+
+  #uploadImage {
+    margin-top: 50px;
+  }
+
+  #userImage {
+    margin-left: 200px;
+    float: left;
+    /*background-color: red;*/
+  }
+
+  #upload {
+    border-radius: 5px;
+    float: left;
+    color: #303030;
+  }
+
+  #editProfileForm {
+    width: 90%;
+    height: 250px;
+    padding-top: 30px;
+    margin-top: 100px;
+    /*background-color: green;*/
+  }
+
+  #firstName {
+/*    margin-left: 150px;*/
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(235, 235, 235);
+    color: #303030;
+  }
+
+  #lastName {
+    width: 200px;
+    height: 35px;
+    margin-left: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(235, 235, 235);
+    color: #303030;
+  }
+
+  #age {
+/*    margin-left: 150px;*/
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(235, 235, 235);
+    color: #303030;
+  }
+
+  #city {
+    width: 200px;
+    height: 35px;
+    margin-left: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(235, 235, 235);
+    color: #303030;
+  }
+
+  #birthday {
+/*    margin-left: 150px;*/
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(235, 235, 235);
+    color: #303030;
+  }
+
+  #editProfileSubmit {
+    width: 100px;
+    /*margin-left: 150px;*/
+    border-radius: 10px;
+    color: #303030;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  #bottomBar {
+    height: 100px;
+    width: 100%;
+    /*background-color: green;*/
+  }
+
+  #microMenuBar {
+    height: 40px;
+    width: 100%;
+    /*background-color: red;*/
+  }
+
+  #copyright {
+    list-style: none;
+    float: left;
+  }
+
+  #copyrightItem {
+    float: left;
+    margin-right: 30px;
+    margin-top: 5px;
+    font-size: 0.8em;
+  }  
+
+  #microMenu {
+    padding-left: 35%;
+    list-style: none;
+    float: left;
+  }
+
+  .microMenuItem {
+    float: left;
+    margin-right: 30px;
+    margin-top: 5px;
+    font-size: 0.8em;
+  }
+
+  .microMenuItem a {
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+  }  

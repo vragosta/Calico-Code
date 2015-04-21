@@ -1,0 +1,181 @@
+  body {
+    margin: 0;
+    background-color: #1d1d1d;
+    font-family: 'Droid Sans', sans-serif;
+    color: rgb(235, 235, 235);
+  }
+
+  .fixedWidth {
+    width:1050px;
+    margin: 0 auto;
+  }
+
+  #topBar {
+    height: 150px;
+    border-bottom: 1px solid #303030;
+  }
+
+  #logoSection {
+    height: 150px;
+    width: 300px;
+    /*consider removing padding for efficiency*/
+    padding: 10px;
+    float: left;
+  }
+
+  #logo {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 3.9em;
+    margin: 60px 0 10px 40px;
+  }
+
+  #menuSection {
+    margin-top: 100px;
+    padding-bottom: 10px;
+    height: 50px;
+    width: 750px;
+    float: left;
+    /*background-color: red;*/
+  }
+
+  #menuList {
+    list-style: none;
+    margin: 0;
+    padding: 15px 0px 0px 100px;
+  }
+
+  .menuItem {
+    float: left;
+    margin-right: 40px;
+    font-size: 1.5em;
+  }
+
+  .menuItem a {
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+  }
+
+  #contentBar {
+    width: 1050px;
+    height: 600px;
+    /*background-color: white;*/
+    border-bottom: 1px solid #303030;
+    padding-top: 25px;
+  }
+
+  #sideSection {
+    width: 150px;
+    height: 550px;
+    border-right: 1px solid #303030;
+    float: left;
+  }
+
+  #dateSection {
+    width: 80%;
+    height: 45px;
+    margin: 0px 5px 0px 5px;
+    padding: 0px;
+    float: top;
+    /*background-color: red;*/
+  }
+
+  #welcomeUser {
+    width: 80%;
+    height: 30px;
+    margin: 0px 5px 0px 5px;
+    padding: 0px;
+    float: top;
+    /*background-color: green;*/
+  }
+
+  #littleMan {
+    width: 100%;
+    height: 430px;
+    padding-top: 20px;
+    /*background-color: red;*/
+    float: top;
+  }
+
+  #mainSection {
+    width: 900px;
+    height: 550px;
+    float: left;
+  }
+
+  #adminSection {
+    width: 90%;
+    height: 90%;
+    margin: 10px 10px 10px 20px;
+    padding: 10px;
+    border: 1px solid #1af0ca;
+    border-radius: 10px;
+    font-size: 1.5em;
+    background-color: #303030;
+  }
+
+  #adminList {
+    list-style: none;
+    margin: 0;
+    padding: 25px 0px 0px 100px
+  }
+
+  .adminItem {
+    width: 110px;
+    float: left;
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 5px;
+    font-size: 0.7em;
+    background-color: #1af0ca;
+  }
+
+  .adminItem a {
+    color: #1d1d1d;
+    text-decoration: none;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  #bottomBar {
+    height: 100px;
+    width: 100%;
+    /*background-color: green;*/
+  }
+
+  #microMenuBar {
+    height: 40px;
+    width: 100%;
+    /*background-color: red;*/
+  }
+
+  #copyright {
+    list-style: none;
+    float: left;
+  }
+
+  #copyrightItem {
+    float: left;
+    margin-right: 30px;
+    margin-top: 35px;
+    font-size: 0.8em;
+  }  
+
+  #microMenu {
+    padding-left: 35%;
+    list-style: none;
+    float: left;
+  }
+
+  .microMenuItem {
+    float: left;
+    margin-right: 30px;
+    margin-top: 35px;
+    font-size: 0.8em;
+  }
+
+  .microMenuItem a {
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+  }  

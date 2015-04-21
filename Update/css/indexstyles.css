@@ -1,0 +1,279 @@
+  /*organize*/
+  body {
+    margin: 0;
+    background-color: #1d1d1d;
+    font-family: 'Droid Sans', sans-serif;
+    color: rgb(235, 235, 235);
+  }
+
+  .fixedWidth {
+    width:1050px;
+    margin: 0 auto;
+  }
+
+  #topBar {
+    height: 150px;
+    width: 100%;
+    /*background-color: white;*/
+    border-bottom: 1px solid #303030;
+  }
+
+  #topBar h1 {
+    margin: 60px 0 10px 40px;
+  }
+
+  #logoSection {
+    height: 150px;
+    width: 300px;
+    /*consider removing padding for efficiency*/
+    /*background-color: red;*/
+    padding: 10px;
+    float: left;
+  }
+
+  #logo {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 3.9em;
+    margin: 60px 0 10px 40px;
+  }
+
+  .loginBar {
+    float: right;
+    margin-top: 70px;
+    color: #303030;
+  }
+
+  input.loginBar {
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 3px;
+  }
+
+  #loginSubmit {
+    /*background-color: #80bd01;*/
+    background-color: #1af0ca;
+    color: #1d1d1d;
+    font-weight: bold;
+    /*border: 1px solid #80bd01;*/
+    border: 1px solid #1af0ca;
+  }
+
+  #loginPassword {
+    border: 1px solid white;
+  }
+
+  #loginEmail {
+    border: 1px solid white;
+  }
+
+  label {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+  } 
+
+  #checkbox {
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin: 10px 0px 0px 400px;
+    vertical-align: bottom;
+    position: relative;
+    top: -3px;
+    *overflow: hidden;
+  }  
+
+  #contentBar {
+    width: 100%;
+    height: 600px;
+    /*background-color: white;*/
+    border-bottom: 1px solid #303030;
+  }
+
+  #contentHeader {
+    font-family: din-condensed-web;
+    color: #1af0ca;
+    padding-left: 30px;
+  }
+
+  #spaceholder {
+    width: 400px;
+    height: 300px;
+    margin: 130px 180px 10px 50px;
+    float: left;
+    border-radius: 20px 40px;
+    /*background-color: #80bd01;*/
+    /*background-color: #1af0ca;*/
+    background-color: #303030;
+    border: 1px solid #1af0ca;
+  }
+
+  #littleMan2 {
+    width: 450px;
+    height: 300px;
+    margin: 150px 100px 0px 80px;
+    float: left;
+  }
+
+  #siteMottoDiv {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    margin: 180px 100px 0px 300px;
+    padding-top: 25px;
+    padding-left: 10px;
+  }
+
+  #siteMotto {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #303030;
+    font-family: 'Shadows Into Light', cursive;
+  }
+
+  #smiley {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin: 310px 100px 0px 450px;
+  }
+
+  #talkBubble {
+    position: absolute;
+    width: 225px;
+    height: 220px;
+    margin: 30px 0px 0px 255px;
+    /*transform: rotate(-35deg);*/
+    float: left;
+  }
+
+  #littleMan {
+    width: 200px;
+    height: 250px;
+    margin: 150px 0px 0px 430px;
+    float: left;
+  }
+
+  #greetingBlockA {
+    width: 350px;
+    height: 22px;
+    border-radius: 20px 20px 0 0;
+    border: 1px solid #1af0ca;
+    background-color: #787878;
+    color: rgb(235, 235, 235);
+    margin: 315px 10px 0px 165px;
+    position: absolute;
+  }
+
+  #greetingBlockB {
+    width: 350px;
+    height: 30px;
+    border-radius: 0 0 20px 20px;
+    border: 1px solid #1af0ca;
+    background-color: #303030;
+    color: rgb(235, 235, 235);
+    margin: 337px 10px 0px 165px;
+    position: absolute;
+  }
+
+  #signUpBar {
+    /*height: 400px;*/
+    /*width: 400px;*/
+    /*background-color: #303030;*/
+    color: #303030;
+    float: left;
+    margin-top: 165px;
+    /*margin-left: 640px;*/
+    /*margin-left: 370px;*/
+    /*margin-left: 10px;*/
+  }
+
+  #signUpBar input {
+    height: 35px;
+    width: 350px;
+    margin-top: 10px;
+    border-radius: 3px;
+  }
+
+  #signUpPrompt {
+    font-size: 1.3em;
+    margin: 0px;
+    padding-left: 10px;
+    color: rgb(235, 235, 235);
+  }
+
+  #signUpEmail {
+    border: 1px solid white;
+  }
+
+  #signUpPassword {
+    border: 1px solid white;
+  }
+
+/*  #signUpUsername {
+    border: 1px solid white;
+  }*/
+
+  #signUpSubmit {
+    /*background-color: #80bd01;*/
+    background-color: #1af0ca;
+    color: #1d1d1d;
+    font-weight: bold;
+    /*border: 1px solid #80bd01;*/
+    border: 1px solid #1af0ca;
+  }
+
+  #downloadOptions {
+    margin: 10px 0px 0px 650px;
+    height: 40px;
+    width: 300px;
+    /*background-color: red;*/
+    float: left;
+  }
+
+  #downloadOptions img {
+    float: left;
+    margin-left: 15px;
+  }
+
+  #bottomBar {
+    height: 100px;
+    width: 100%;
+    /*background-color: green;*/
+  }
+
+  #microMenuBar {
+    height: 40px;
+    width: 100%;
+    /*background-color: red;*/
+  }  
+
+  #copyright {
+    list-style: none;
+    float: left;
+  }
+
+  #copyrightItem {
+    float: left;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 0.8em;
+  }
+
+  #microMenu {
+    padding-left: 35%;
+    list-style: none;
+    float: left;
+  }
+
+  .microMenuItem {
+    float: left;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 0.8em;
+  }
+
+  .microMenuItem a {
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+  }  

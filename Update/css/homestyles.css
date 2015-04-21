@@ -1,0 +1,285 @@
+  body {
+    margin: 0;
+    background-color: #1d1d1d;
+    font-family: 'Droid Sans', sans-serif;
+    color: rgb(235, 235, 235);
+  }
+
+  .fixedWidth {
+    width:1050px;
+    margin: 0 auto;
+  }
+
+  #topBar {
+    height: 150px;
+    border-bottom: 1px solid #303030;
+  }
+
+  #logoSection {
+    height: 150px;
+    width: 300px;
+    /*consider removing padding for efficiency*/
+    padding: 10px;
+    float: left;
+  }
+
+  #logo {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 3.9em;
+    margin: 60px 0 10px 40px;
+  }
+
+  #menuSection {
+    margin-top: 100px;
+    padding-bottom: 10px;
+    height: 50px;
+    width: 750px;
+    float: left;
+    /*background-color: red;*/
+  }
+
+  #menuList {
+    list-style: none;
+    margin: 0;
+    padding: 15px 0px 0px 100px;
+  }
+
+  .menuItem {
+    float: left;
+    margin-right: 40px;
+    font-size: 1.5em;
+  }
+
+  .menuItem a {
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+  }
+
+  #contentBar {
+    width: 1050px;
+    height: 600px;
+    /*background-color: white;*/
+    border-bottom: 1px solid #303030;
+    padding-top: 25px;
+  }
+
+  #sideSection {
+    width: 150px;
+    height: 550px;
+    border-right: 1px solid #303030;
+    float: left;
+    /*background-color: #303030;*/
+  }
+
+  #dateSection {
+    width: 80%;
+    height: 45px;
+    margin: 0px 5px 0px 5px;
+    padding: 0px;
+    float: top;
+    /*background-color: red;*/
+  }
+
+  #welcomeUser {
+    width: 80%;
+    height: 30px;
+    margin: 0px 5px 0px 5px;
+    padding: 0px;
+    float: top;
+    /*background-color: green;*/
+  }
+
+  #mainSection {
+    width: 900px;
+    height: 550px;
+    float: left;
+    /*background-color: red;*/
+  }
+
+  #blockOneA {
+    /*width: 60%;*/
+    /*height: 60%;*/
+    width: 60%;
+    height: 8.5%;
+    margin: 10px 10px 0px 20px;
+    /*background-color: #303030;*/
+    /*background-color: #898989;*/
+    background-color: #787878;
+    border: 1px solid #1af0ca;
+    color: rgb(235, 235, 235);
+    float: left;
+    border-radius: 20px 20px 0 0;
+  }
+
+  #blockOneB {
+    width: 60%;
+    height: 51.5%;
+    margin: 0px 10px 20px 20px;
+    background-color: #303030;
+    border: 1px solid #1af0ca;
+    color: rgb(235, 235, 235);
+    float: left;
+    border-radius: 0 0 20px 20px;
+  }
+
+  #updates {
+    /*border-bottom: 1px solid #1af0ca;*/
+    padding-left: 20px;
+    /*padding-bottom: 10px;*/
+    /*background-color: #1d1d1d;*/
+  }
+
+  #blockTwo {
+    width: 30%;
+    height: 30%;
+    margin: 10px 0px 0px 10px;
+    background-color: #303030;
+    border: 1px solid #1af0ca;
+    float: left;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  #blockThree {
+    width: 235px;
+    height: 380px;
+    margin: 145px 0px 0px 580px;
+    background-color: #303030;
+    border: 1px solid #1af0ca;
+    float: left;
+    border-radius: 20px;
+    padding: 10px;
+    position: absolute;
+  }
+
+  #blockThreeA {
+    width: 235px;
+    height: 45px;
+    margin: 145px 0px 0px 580px;
+    background-color: #787878;
+    color: rgb(235, 235, 235);
+    border: 1px solid #1af0ca;
+    float: left;
+    border-radius: 20px 20px 0 0;
+    /*padding: 10px;*/
+    position: absolute;
+  }
+
+  #blockThreeB {
+    width: 235px;
+    height: 335px;
+    margin: 190px 0px 0px 580px;
+    background-color: #303030;
+    color: rgb(235, 235, 235);
+    border: 1px solid #1af0ca;
+    float: left;
+    border-radius: 0 0 20px 20px;
+    /*padding: 10px;*/
+    position: absolute;
+  }
+
+  #talkBubble {
+    position: absolute;
+    width: 125px;
+    height: 120px;
+    margin: 0px 0px 0px 645px;
+    transform: rotate(-35deg);
+    float: left;
+  }
+
+  #littleMan {
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    margin: 0px 0px 0px 750px;
+    /*margin-left: 580px;*/
+    /*margin: 150px 0px 0px 430px;*/
+    /*margin-bottom: 600px;*/
+    float: left;
+  }
+
+  #blockFourA {
+    width: 60%;
+    height: 8.5%;
+    margin-left: 20px;
+    background-color: #787878;
+    border: 1px solid #1af0ca;
+    color: rgb(235, 235, 235);
+    float: left;
+    border-radius: 20px 20px 0 0;
+    /*position: absolute;*/
+  }
+
+  #blockFourB {
+    width: 60%;
+    height: 21.5%;
+    margin-left: 20px;
+    background-color: #303030;
+    border: 1px solid #1af0ca;
+    color: rgb(235, 235, 235);
+    float: left;
+    border-radius: 0 0 20px 20px;
+  }
+
+  #recentUpdates {
+    /*border-bottom: 1px solid #1af0ca;*/
+    padding-left: 20px;
+    /*background-color: #1d1d1d;*/
+  }
+
+  #blockFive {
+    width: 30%;
+    height: 30%;
+    margin-left: 20px;
+    background-color: #303030;
+    border: 1px solid #1af0ca;
+    float: left;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  #bottomBar {
+    height: 100px;
+    width: 100%;
+    /*background-color: green;*/
+  }
+
+  #microMenuBar {
+    height: 40px;
+    width: 100%;
+    /*background-color: red;*/
+  }
+
+  #copyright {
+    list-style: none;
+    float: left;
+  }
+
+  #copyrightItem {
+    float: left;
+    margin-right: 30px;
+    margin-top: 35px;
+    font-size: 0.8em;
+  }  
+
+  #microMenu {
+    padding-left: 35%;
+    list-style: none;
+    float: left;
+  }
+
+  .microMenuItem {
+    float: left;
+    margin-right: 30px;
+    margin-top: 35px;
+    font-size: 0.8em;
+  }
+
+  .microMenuItem a {
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+  }  
